@@ -1,0 +1,82 @@
+@import './variables.scss';
+
+body {
+  font-family: $serif;
+  font-size: $fontSizeBase;
+  color: $colorTextDark;
+}
+
+.text {
+  &.t-a-center {
+    text-align: center;
+  }
+  &.t-a-right {
+    text-align: right;
+  }
+  &.t-a-left {
+    text-align: left;
+  }
+  &.fs-xs {
+    font-size: calc(#{$fontSizeBase} / #{$fontSizeMultiplierLarge});
+  }
+  &.fs-sm {
+    font-size: calc(#{$fontSizeBase} / #{$fontSizeMultiplierSmall});
+  }
+  &.fs-lg {
+    font-size: calc(#{$fontSizeBase} * #{$fontSizeMultiplierSmall});
+  }
+  &.fs-xl {
+    font-size: calc(#{$fontSizeBase} * #{$fontSizeMultiplierLarge});
+  }
+  &.ff-serif {
+    font-family: $serif;
+  }
+  &.ff-sans {
+    font-family: $sansSerif;
+  }
+  &.fs-italic {
+    font-style: italic
+  }
+  &.fw-bolder {
+    font-weight: bolder;
+  }
+  &.fw-bold {
+    font-weight: bold;
+  }
+  &.fw-normal {
+    font-weight: normal;
+  }
+  &.fw-ligher {
+    font-weight: lighter;
+  }
+  &.t-c-white {
+    color: white;
+  }
+  &.t-c-black {
+    color: black;
+  }
+  &.t-c-dark {
+    color:  $colorTextDark;
+  }
+  &.t-c-medium {
+    color: $colorTextMedium;
+  }
+  &.t-c-light {
+    color: $colorTextLight;
+  }
+  &.t-c-primary {
+    color: $colorTextPrimary;
+  }
+  &.t-c-secondary {
+    color: $colorTextSecondary;
+  }
+  &.t-c-highlight {
+    color: $colorTextHighlight;
+  }
+  &.t-c-success {
+    color: $colorTextSuccess;
+  }
+  &.t-c-failure {
+    color: $colorTextFailure;
+  }
+}

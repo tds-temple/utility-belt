@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.transition {
+  &.t-slow {
+    transition: $transitionSlow;
+  }
+  &.t-medium {
+    transition: $transitionMedium;
+  }
+  &.t-fast {
+    transition: $transitionFast;
+  }
+}

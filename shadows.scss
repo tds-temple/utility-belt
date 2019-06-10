@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.shadow {
+  &.s-soft {
+    box-shadow: $shadowSoft;
+  }
+  &.s-medium {
+    box-shadow: $shadowMedium;
+  }
+  &.s-hard {
+    box-shadow: $shadowHard;
+  }
+}

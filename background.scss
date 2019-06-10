@@ -1,0 +1,91 @@
+@import './variables.scss';
+
+.bg {
+  &.bg-c-transparent {
+    background-color: transparent;
+  }
+  &.bg-c-primary {
+    background-color: $colorPrimary;
+    &.bg-overlay {
+      background-color: $colorPrimaryOverlay;
+    }
+  }
+  &.bg-c-secondary {
+    background-color: $colorSecondary;
+    &.bg-overlay {
+      background-color: $colorSecondaryOverlay;
+    }
+  }
+  &.bg-c-highlight {
+    background-color: $colorHighlight;
+    &.bg-overlay {
+      background-color: $colorHighlightOverlay;
+    }
+  }
+  &.bg-c-dark {
+    background-color: $colorDark;
+    &.bg-overlay {
+      background-color: $colorDarkOverlay;
+    }
+  }
+  &.bg-c-medium {
+    background-color: $colorMedium;
+    &.bg-overlay {
+      background-color: $colorMediumOverlay;
+    }
+  }
+  &.bg-c-light {
+    background-color: $colorLight;
+    &.bg-overlay {
+      background-color: $colorLightOverlay;
+    }
+  }
+  &.bg-c-success {
+    background-color: $colorSuccess;
+    &.bg-overlay {
+      background-color: $colorSuccessOverlay;
+    }
+  }
+  &.bg-c-failure {
+    background-color: $colorFailure;
+    &.bg-overlay {
+      background-color: $colorFailureOverlay;
+    }
+  }
+  &.bg-c-white {
+    background-color: rgb(255, 255, 255);
+    &.bg-overlay {
+      background-color: rgba(255, 255, 255, $overlayTransparency);
+    }
+  }
+  &.bg-c-black {
+    background-color: rgb(0, 0, 0);
+    &.bg-overlay {
+      background-color: rgba(255, 255, 255, $overlayTransparency);
+    }
+  }
+  &.bg-a-fixed {
+    background-attachment: fixed;
+  }
+  &.bg-a-scroll {
+    background-attachment: scroll;
+  }
+  &.bg-s-cover {
+    background-size: cover;
+  }
+  &.bg-s-contain {
+    background-size: contain;
+  }
+  &.bg-r-no-repeat {
+    background-repeat: no-repeat;
+  }
+  &.bg-r-repeat {
+    background-repeat: repeat;
+  }
+  &.bg-r-repeat-x {
+    background-repeat: repeat-x;
+  }
+  &.bg-r-repeat-y {
+    background-repeat: repeat-y;
+  }
+}

@@ -1,0 +1,83 @@
+@import './variables.scss';
+
+.border {
+  border: $borderDefault;
+  &.b-w-thin {
+    border-width: $borderThicknessThin;
+  }
+  &.b-w-medium {
+    border-width: $borderThicknessMedium;
+  }
+  &.b-w-thick {
+    border-width: $borderThicknessThick;
+  }
+  &.b-s-dotted {
+    border-style: dotted;
+  }
+  &.b-s-dashed {
+    border-style: dashed;
+  }
+  &.b-s-solid {
+    border-style: solid;
+  }
+  &.b-s-double {
+    border-style: double;
+  }
+  &.b-s-groove {
+    border-style: groove;
+  }
+  &.b-s-ridge {
+    border-style: ridge;
+  }
+  &.b-s-inset {
+    border-style: inset;
+  }
+  &.b-s-outset {
+    border-style: outset;
+  }
+  &.b-s-none {
+    border-style: none;
+  }
+  &.b-c-white {
+    border-color: white;
+  }
+  &.b-c-black {
+    border-color: black;
+  }
+  &.b-c-dark {
+    border-color:  $colorBorderDark;
+  }
+  &.b-c-medium {
+    border-color: $colorBorderMedium;
+  }
+  &.b-c-light {
+    border-color: $colorBorderLight;
+  }
+  &.b-c-primary {
+    border-color: $colorBorderPrimary;
+  }
+  &.b-c-secondary {
+    border-color: $colorBorderSecondary;
+  }
+  &.b-c-highlight {
+    border-color: $colorBorderHighlight;
+  }
+  &.b-c-success {
+    border-color: $colorBorderSuccess;
+  }
+  &.b-c-failure {
+    border-color: $colorBorderFailure;
+  }
+  &.b-r-sharp {
+    border-radius: 0;
+  }
+  &.b-r-rounded {
+    border-radius: 7px;
+  }
+  &.b-r-pill {
+    border-radius: 100px;
+  }
+  &.b-r-circle {
+    border-radius: 50%;
+  }
+}

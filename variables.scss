@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i&display=swap');
+
+$rootBoxSizing: border-box;
+$rootPadding: 0;
+$rootMargin: 0;
+
+$transitionSlow: all .4s ease-in-out;
+$transitionMedium: all .3s ease-in-out;
+$transitionFast: all .2s ease-in-out;
+
+$overlayTransparency: 0.5;
+
+$colorPrimary: rgb(102, 51, 153);
+$colorPrimaryOverlay: rbga(102, 51, 153, $overlayTransparency);
+
+$colorSecondary: rgb(62, 146, 204);
+$colorSecondaryOverlay: rbga(62, 146, 204, $overlayTransparency);
+
+$colorHighlight: rgb(157, 217, 210);
+$colorHighlightOverlay: rbga(157, 217, 210, $overlayTransparency);
+
+$colorDark: rgb(51, 51, 51);
+$colorDarkOverlay: rbga(51, 51, 51, $overlayTransparency);
+
+$colorMedium: rgb(162, 170, 167);
+$colorMediumOverlay: rbga(112, 135, 127, $overlayTransparency);
+
+$colorLight: rgb(255, 255, 255);
+$colorLightOverlay: rbga(255,255,255, $overlayTransparency);
+
+$colorSuccess: rgb(57, 115, 103);
+$colorSuccessOverlay: rbga(57, 115, 103, $overlayTransparency);
+
+$colorFailure: rgb(255, 94, 91);
+$colorFailureOverlay: rbga(255, 94, 91, $overlayTransparency);
+
+$colorBorderPrimary: rgb(102, 51, 153);
+$colorBorderSecondary: rgb(62, 146, 204);
+$colorBorderHighlight: rgb(157, 217, 210);
+$colorBorderDark: rgb(51, 51, 51);
+$colorBorderMedium: rgb(162, 170, 167);
+$colorBorderLight: rgb(255, 255, 255);
+$colorBorderSuccess: rgb(57, 115, 103);
+$colorBorderFailure: rgb(255, 94, 91);
+
+$colorTextPrimary: rgb(102, 51, 153);
+$colorTextSecondary: rgb(62, 146, 204);
+$colorTextHighlight: rgb(157, 217, 210);
+$colorTextDark: rgb(51, 51, 51);
+$colorTextMedium: rgb(162, 170, 167);
+$colorTextLight: rgb(230, 230, 230);
+$colorTextSuccess: rgb(57, 115, 103);
+$colorTextFailure: rgb(255, 94, 91);
+
+$borderDefault: 1px solid $colorBorderPrimary;
+$borderThicknessThin: 1px;
+$borderThicknessMedium: 2px;
+$borderThicknessThick: 3px;
+
+$fontSizeBase: 1rem;
+$fontSizeMultiplierSmall: 2;
+$fontSizeMultiplierLarge: 4;
+
+$serif: 'Playfair Display SC', serif;
+$sansSerif: 'Montserrat', sans-serif;
+
+$space: 1rem;
+$spaceMultiplierSmall: 2;
+$spaceMultiplierLarge: 4;
+
+$shadowSoft: 0 0 10px rgba(0, 0, 0, 0.5);
+$shadowMedium: 0 10px 6px -6px #777;
+$shadowHard: 0 3px 2px #777;

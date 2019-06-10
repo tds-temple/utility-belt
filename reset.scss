@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+*, *::after, *::before {
+  box-sizing: $rootBoxSizing;
+  margin: $rootMargin;
+  padding: $rootPadding;
+}
